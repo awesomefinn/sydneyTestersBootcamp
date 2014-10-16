@@ -1,5 +1,6 @@
 Given(/^I visit SydneyTesters Life Insurance page$/) do
-  visit('http://sydneytesters.herokuapp.com/login')
+  #visit('http://sydneytesters.herokuapp.com/login')
+  visit('http://taste.com.au/login')
 end
 
 When(/^I fill email with "(.*?)"$/) do |username|
