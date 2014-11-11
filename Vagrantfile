@@ -108,12 +108,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       }
     }
 
-    chef.add_recipe ""
-
     chef.run_list = [
         'recipe[java]',
         'recipe[git]',
-        'recipe[machines::[[austin]]'
+        'recipe[subversion]'
     ]
     chef.log_level = :debug
   end

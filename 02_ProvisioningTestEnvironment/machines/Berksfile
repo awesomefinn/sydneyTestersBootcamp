@@ -4,3 +4,4 @@ metadata
 
 cookbook 'java'
 cookbook 'git'
+cookbook 'subversion'
