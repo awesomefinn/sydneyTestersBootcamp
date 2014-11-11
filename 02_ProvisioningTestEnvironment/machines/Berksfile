@@ -2,6 +2,12 @@ source "https://supermarket.getchef.com"
 
 metadata
 
+cookbook 'apt'
 cookbook 'java'
 cookbook 'git'
+<<<<<<< HEAD
 cookbook 'subversion'
+=======
+cookbook 'apache2'
+cookbook 'php'
+>>>>>>> 7ab7249bd7b8849a9bba10ae919a97c92d1f7b00
