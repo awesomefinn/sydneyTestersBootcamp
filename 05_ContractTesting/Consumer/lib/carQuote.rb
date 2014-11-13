@@ -24,7 +24,7 @@ class CarQuote < Quote
   end
 
   def get_premium
-    response = JSON.parse Net::HTTP.get URI.parse "http://localhost:4567/price?age=#@age&gender=#@gender&make=#@make&state=#@state"
+    response = JSON.parse Net::HTTP.get URI.parse "http://localhost:4567/price?age=#@age&gender=#@gender&make=#@make&state=#@state&year=#@year"
     response['price']
   end
   

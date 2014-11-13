@@ -12,7 +12,7 @@
       "request": {
         "method": "get",
         "path": "/price",
-        "query": "age=30&gender=female&make=audi&state=nsw"
+        "query": "age=30&gender=female&make=audi&state=nsw&year=2014"
       },
       "response": {
         "status": 200,
